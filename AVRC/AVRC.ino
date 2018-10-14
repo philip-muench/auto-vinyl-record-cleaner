@@ -372,7 +372,7 @@ void loop() {
       if(steps_taken <= 0)
       {
         setPhase(GIVE_YARN_GRAB);
-        //stop();
+        stop();
         break;
       }
       stepBackward();
@@ -410,5 +410,3 @@ void loop() {
   resetInterrupt();
   incrTime();
 }
-
-
